@@ -40,6 +40,8 @@
 * by default the aggregation is **sum**
 * if you want another col where you want to see % of profit so just take profit col again and go to Field -> Profit --> Show value as -> percent of total (or % of grand total)
 
+1:9
+
 
 
 
