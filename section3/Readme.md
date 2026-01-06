@@ -40,8 +40,25 @@
 * by default the aggregation is **sum**
 * if you want another col where you want to see % of profit so just take profit col again and go to Field -> Profit --> Show value as -> percent of total (or % of grand total)
 
-1:9
+## 5. Creating a Simple Matrix;
+* why we need matrix -> when we want row heading and col heading
+* eg; if we have all regions for each sub-category so table would be very long when we so those in 1D so matrix try to show those in 2D (row heading and col heading)
 
+
+## 6. Conditional Formatting in matrix;;(go cell elements)
+
+KPIs-> key performance indicater (those arrows ->,<-, etc)
+
+## 7. Hierarchies (used to display more informatino in less spaces) in matrix;; 
+* you can put multiple category data in row header or col head 
+
+## 8. Subtotal and Total in matrix (go to visualization tool and explore subtotal and grande)
+
+
+## 9. Number formatting in matrix and table
+* click on that feature col and you will be redirected to **Column tools** where you can change the data type
+
+* and **Field formatting** in visualization layer explore change number in K, Million etc (display unit)
 
 
 
