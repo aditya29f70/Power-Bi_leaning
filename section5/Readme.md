@@ -40,6 +40,91 @@
 
 * lly we will do it by using filtering go `filters on this visual after selecting a date card -> drop down that date col again in **ADD data field here** -> you will have four option in filter type choose **relative date** -> choose **is in the last** in Show items when the value -> 2 and then choose year and apply`
 
+* Relative filter is great bz it can present data according to today's date
+
+
+## 6. Multi row and multi col card
+
+* previusly all the card have only one number, text or date but what if you want multi numbers,text or date in one card
+
+* for that you have to choose multi-row card in visualization
+
+* multi-row bz all the sub-category will be come rows wise
+
+* and the numberical col will come col wise
+
+* now i want top three sub categories according to there profit
+
+
+## 7. Filter on Visual 
+* there are diff kind of filter available in Power bi
+
+1. Filter on visuals
+2. Filter on page
+3. Filter on all Pages
+4. Drill through
+
+
+* now you can filter on visuals so for that you have to choose a visuals
+
+* now you can filter like , drag-and-drop the data col on filter field and you can filter according that dragged data col
+
+* and note that you applying these visual filter on a particular visualization other will remain same
+
+
+
+## 8. Filter on Page
+* page means that whole one page where you trying to plot diff visualizations
+
+* so here will try to filter for whole page so all the visualization will be affected by that filters
+
+## 9. filter on all pages
+
+* for that you just have to create more than one page (lly like creating multiple sheets in excel)
+
+* create some charts or visualization on both of the pages
+
+* this is not about any two or three pages this filter will be applied on all the pages
+
+
+## 10. Drill-Through (vvim topic in bi)
+
+* it is used to drill down and naviage through diff pages 
+
+* i have some visuals in a page and i have selected some section of the visualization and want to data visualization which we have in diff page according to that section on visualization so for that we use drill-through
+
+* so for that you have to click outside some where and you will an option **Add drill-throgh fields here** on visualization
+
+* drag-drop your category in it for which you want to filter
+
+* and nothing you have to select on that page now you previous page where you have some chart related to that drag-drop col will come your curse on it will show **Right-click to drill through** --> **right click** --> you will see **Drill through option** --> that select that page where you want to see the effect or have selected drill through data col
+
+
+* you will not see that drill-through option only it will be shown where any chart related to that col is drown
+
+* now when you select any part of that chart and right click and go to drill throgh you will be redirected to that page and so data plot according to that selection
+
+* note we select that col data where we want to select any part and visuale according that in destination page, and always drill-through is done in destination page
+
+* In new versions of Power BI (with On-Object Editing), the drill-through option is set up in the Format Pane on the destination page, not the source, by changing the Page type to "Drillthrough" and adding fields. To use it, right-click a data point on the source report, select Drill through, and choose the detailed page, or sometimes left-click if enabled for a specific visual, all while the destination page is filtered to the selected value
+
+
+* use case;; like you can make one page for manager information , another next page is for employ information now you can drill-through manager in that employ page and now you will select any manager in the manager page all the emploies infomation can be shown in the employ page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
