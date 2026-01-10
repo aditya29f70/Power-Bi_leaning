@@ -52,7 +52,24 @@
 
 * not only last you can choose this , next and quater years
 
-2:56
+* you can also have hirarchie data slicer you just need to change the data format to **Date hirarchie** and you can get a hirarchie data slicer
+
+
+
+## 4. number slicer
+* let we want to show --> what are the customers, who have purchased some items and what are the quanty they have purchased
+
+
+* now i want to know how many customers have bought quantity 3 or 4 quantity etc
+
+
+* now choose a slicer and drag and drop the quantity col to that slicer; and you will see a range of select option where you can choose a range of quantity
+
+* see page-4
+
+* so through that we can identify those customers who has bought good quantity;; so we will give them attention to them
+
+
 
 
 
