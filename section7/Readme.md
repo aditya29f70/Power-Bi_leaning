@@ -31,4 +31,14 @@
 
 ## 4. Infographic --> col chart related things where you can replace bar with diff figures(like nature(tree) , humans, companet logo(you can import the logo and use it) etc)
 
-3:29
+## 5. Play axis:
+* like your slicer it can't work independently it should have some chart so it can show thing effectly
+
+## 6. Scroller;; one of the most interesting visual i can say ;; you have seen in any news channer, 
+
+
+## 7. subburst chart ;;is kind of donut chart diff layer in the donut
+
+
+## 8. Histogram
+
