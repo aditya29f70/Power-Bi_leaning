@@ -2,82 +2,120 @@
 
 ## section10 : power Bi service Introduction
 
-* 10.1 Creating a superstore report
-* 10.2 Create an account on power Bi service
-* 10.3 Publish Report to Power Bi service Account
-* 10.4 Export (PPT,PDF, PBIX) Report and Share
-* 10.5 comment, share and subscribe to a report
-* 10.6 Create a dashboard in power bi service
-* 10.7 Problem in Power Bi Dashboard and its solution
-* 10.8 Automatic Refresh - Data GateWay
-* 10.9 Create Report Directly in Power Bi service
+- 10.1 Creating a superstore report
+- 10.2 Create an account on power Bi service
+- 10.3 Publish Report to Power Bi service Account
+- 10.4 Export (PPT,PDF, PBIX) Report and Share
+- 10.5 comment, share and subscribe to a report
+- 10.6 Create a dashboard in power bi service
+- 10.7 Problem in Power Bi Dashboard and its solution
+- 10.8 Automatic Refresh - Data GateWay
+- 10.9 Create Report Directly in Power Bi service
 
+- till what ever option we have seen , how to create charts, slicers, adding text, every things we will be using here , it would be very simple report
 
-* till what ever option we have seen , how to create charts, slicers, adding text, every things we will be using here , it would be very simple report 
+- so for that we need good data
 
-* so for that we need good data
-
-* note SuperStore Report and Dashboard are diff things first we try to build SuperStore then move to creating dashBoards
+- note SuperStore Report and Dashboard are diff things first we try to build SuperStore then move to creating dashBoards
 
 ## 1. SuperStore Report
 
-* you will see, care fully see very ever the **font-size** is write (same) , background is given (black) 
+- you will see, care fully see very ever the **font-size** is write (same) , background is given (black)
 
+- you can incrase the page size, first select the page (click anywhere on page) and then go to format -> canvas setting and select **type** -> custom ;; now you can provide the hight and width
 
-* you can incrase the page size, first select the page (click anywhere on page) and then go to format -> canvas setting and select **type** -> custom ;; now you can provide the hight and width
-
-
-* report is ready now we can publice it on online
+- report is ready now we can publice it on online
 
 ## 2. Create an account in Power bi service
-* since we want to publice this report online which we have made , we need an account first-of fall 
 
-* in the home tab we have **publish** option ;; sign in things will come again (you should have some corporate gmail account)
+- since we want to publice this report online which we have made , we need an account first-of fall
 
+- in the home tab we have **publish** option ;; sign in things will come again (you should have some corporate gmail account)
 
-* after sign in , it will give you an option that you can give invitation to other team member also 
+- after sign in , it will give you an option that you can give invitation to other team member also
 
-* after that you will see a power bi service user interface
+- after that you will see a power bi service user interface
 
-* in side bar you will see some diff options like ;; Home , Favorites, Recent, Apps, Shared with me, Workspaces, My Workspace
+- in side bar you will see some diff options like ;; Home , Favorites, Recent, Apps, Shared with me, Workspaces, My Workspace
 
-* so there are two options are importand for us -> WorkSpace, My Worspace
+- so there are two options are importand for us -> WorkSpace, My Worspace
 
-* consider workspace as a folder as in your laptop
+- consider workspace as a folder as in your laptop
 
-* in workspace there is option -> Create workspace
+- in workspace there is option -> Create workspace
 
-* for currently we will learn how to publish a report from Power bi dashtop to power bi online application(server) 
+- for currently we will learn how to publish a report from Power bi dashtop to power bi online application(server)
 
 ## 3. Publish Report to power Bi service Account
 
-* just click on **publish**
+- just click on **publish**
 
-* so after sign-in -> it will give you option -> publish to power bi **select a destination** -> **My workspace(like folder where you can store workbooks, dashboard, datasets)**
+- so after sign-in -> it will give you option -> publish to power bi **select a destination** -> **My workspace(like folder where you can store workbooks, dashboard, datasets)**
 
-* one team member can be assigned to diff workspaces or diff projects
+- one team member can be assigned to diff workspaces or diff projects
 
-* every project person might create one folder , or every department person can create on folder (HR (inside hr there may be diff folders), finance, banking etc )
+- every project person might create one folder , or every department person can create on folder (HR (inside hr there may be diff folders), finance, banking etc )
 
-* so select you workspace it will take time according to your report size --> then will publish the report on power bi service
+- so select you workspace it will take time according to your report size --> then will publish the report on power bi service
 
-* after publish it will show that workspace name (that would be our power bi file name)
+- after publish it will show that workspace name (that would be our power bi file name)
 
-* to open that or jump to power bi service just click on link
+- to open that or jump to power bi service just click on link
 
-* you will see entire file is published (all the pages that were in you power bi file)
+- you will see entire file is published (all the pages that were in you power bi file)
 
-* and will be interective after publish(click on any report all the plot will be changed accordingly)
+- and will be interective after publish(click on any report all the plot will be changed accordingly)
 
 ## 4. Export the report in (PPt, PDF, PBIX) and share
 
-* if you want to convert it into ppt
-* `go to file -> export to powerPoint` it will take some few minates, it will convert into ppt -> in ppt each ppt page will be each page of your power bi report
+- if you want to convert it into ppt
+- `go to file -> export to powerPoint` it will take some few minates, it will convert into ppt -> in ppt each ppt page will be each page of your power bi report
 
-* and also can download in pdf format -> `file-> Export to pdf`
+- and also can download in pdf format -> `file-> Export to pdf`
 
-* there is also an option `file-> download report (preview)` in (pbix) format
+- there is also an option `file-> download report (preview)` in (pbix) format
 
-* so you can restric these downloading permission of peoples
+- that is benefit of power bi like your calig has submitted the report at power bi serveice and you immediatly want that report you can download that from the power bi service directly
 
-4:30
+- so you can restric these downloading permission of peoples
+
+- how to share that report --> there is a option **Publish to web** you can make it publish so any can access it --> after that you will get a link (you need a professonal url and admin permission)
+
+## 5. Comment, Share and subscribe to a report
+
+-> very interesting feature in power bi
+
+- let we have a report (superStore report )
+- i want to talk with my calig, who seating in other end and i want to talk to him ;; he also have this report online --> there is option see at the server (right side) `Comments` -> just put `@name of the person` and can send a message to them like `kindly review this report` -> that person get this notification
+
+- when they click on the link -> they will ask you for the permission after you give permission only then they can see the report ;; **Shared** is used to give the permission
+
+- so after clicking on **Shareed** you will see the **access** you will get name of the person and what is persmission is given (editor, viewer etc) ;; and also this is on your hand to give what kind of permission
+
+## there is feature -> suppose i have this report i send this report to my clig, my manager, to my stack holder every week 5 o'clock -> and can tell my power bi service to this this directly
+
+- so for that you have to click on `subscribe` button -> you will see Add new subscription
+
+- this works like your outlook account it will ask you three things -> your email account, your body text (if you want to text something), email of that person where you want to send, when you want to send this report;; starting date and end date(when your project is done)
+
+- so the person will get an email and they will get an link when they click on the link they will jump into power bi service account
+
+- not only this you can add diff subscription, to one report you can assign diff email id diff timing etc
+
+## and third feature is , suppose you do not want to send repeaded email weekly monthly , quatly
+
+- click on share button -> just enter email address (can add multiple email address) enter the messages if you want -> benifit we can send a report to thousant of people at a same time
+
+- if you can see that the below link of that report is already given
+
+## so power bi has three great feature -> (comments, subscribe and share)
+
+## 6. Create a dashBoard in Power Bi service
+
+-> dashBoard can not be created on the power bi dashtop , you have to create dashboard online itself
+
+- you will see a pin button at every plot at you bi dashboard -> after clicking that ask you where do you want to pin at dashboard
+- at new dashboard or existing dashboard -> choose new dashboard (bz we don't have any dashboard already this is our first plot to pin) -> give to a name -> so that plot will be pined to our power bi service dashboard -> click on that plot at the service you will redirect to the source power dashboard -> now do lly for other plot but now you have an exsisting dashboard
+
+- you can see that dashboard -> go to you profile page at service
+- and from profile you can directly create a dashboard
