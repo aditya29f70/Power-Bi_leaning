@@ -119,3 +119,59 @@
 
 - you can see that dashboard -> go to you profile page at service
 - and from profile you can directly create a dashboard
+
+
+## 7. Problem in power Bi dashBoard and its solution
+-> import of all those people who are coming from other other bi tool to Power bi 
+
+* P bi is very good , many features and fns are there 
+* there some limitation in Power Bi or problem in power bi dashboard
+-> open any dashboard from power bi service
+-> but happens in bi tool when you click any part of any chart the other charts get filterd out but when you click on any part of any chart it will jump to that report where it came
+
+* most of the click they don't use dashboard in Power bi, they only use reports
+
+* so the problem is that Bi dashboard is not interactive, What is the solution of that 
+
+* the power bi service report page you will see at the above **pin a live page** -> so by thta the entire page will pin into the dashboard -> click it --> go to **new dashboard**
+
+* so after going to the dashboard ;; hardly you will find any diff bw dashboard and report
+
+* now if you click on any part of any chart , it will not go that page where it came from
+
+
+* so most of the time companey only works on report (at Power bi service there is Reports option on our profile)
+
+* dashboard is only being used , when you just want to see , you don't want to interact with any of dashboard charts
+
+## 8. automatic Refresh - Data Gateway;;
+-> how do we automatically refresh power bi service;; new data keeps on coming every day ;; i need to train my power bi, so that it should automatically go and fetch and refresh the data from power bi service to data source
+
+* so for that we need a tool -> intermediate tool ->  **Data Gateway**
+
+* whenever we publish a report there datasets also get published and the name of the datasets is same as your report name
+
+* if you go to that datasets option and see the last refresh it would be somewhere before from your current time when you click on refresh it will say -> **Refresh failed due to gateway configuration issues
+
+* that is problem you need a tool in between so through that you can refresh you datasets 
+
+* now how to install a gateway -> go to setting --> **gateway connection** -> installed now
+
+* second method is -> at the over there is download icon -> click it you will see **Data gateway**
+
+* if you are working in an componey ;; you don't have to do that this will be done by the admin person
+
+* once the gateway is installed ;; this will be an connection with your power bi service and your datasets
+
+* now you should have admin previlage then you can install it 
+
+* so your personal gateway is being running (it will be shown after refresh the service page)
+
+* note datasets should be refreshed after that your report is refreshed automatically 
+
+* so go to datasets -> now click on refresh button  -> some message you will be gotten and time will be refreshed -> you can see the messages -> most often this message is -> scheduled refresh has been disabled-> right click go to setting and tell that you don't have edit creadencial (don't have username and password to access that datasets)
+
+* now try to chaange with dataset and see those updates is shown in the report or not
+
+* and in the setting there is option -> **Scheduled refresh** -> on **keep your data refresh** -> and put refresh frequencey -> Daily and you can add multiple time refresh on one day (if you have pro account)
+
