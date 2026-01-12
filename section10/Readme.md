@@ -72,7 +72,42 @@
 
 * if you know the filename in which your excel sheet is inside excel go -> **Table Design** option in excel ;; at the left side you will see Table name
 
+* make sure you have close the file while importing the data
+
+* now import the data in power bi
+
+* now select that col and go to Text Column option and choose **Split Column** select it we have diff options -> split [by delimiter, by Numberof charactors, by positions ..etc] ;; in this case the **Delimiter** is comma
+
+* after that you can change the col name and if you want to remove the unwanted space -> select those cols -> go to the **Format** tab and choose the option **Trim** -> the unwanted spaces will get removed
 
 
+* and if you don't want any step you can remove it from **Applied steps**
+* but note there is not any **undo** step in power query (there is not any ctrl+ z)
 
 
+* so that table is not long will be a table -> it will become a query in power bi
+
+* that icon trends for query
+
+## 3. Upper, Lower and Proper case 
+
+* here we have diff name col and have some structure fault like some of them are capital some part is lower
+
+* you can change the query name after getting power query editor at the right side name change bar (you can change the query name) -> after click **apply and close** that will become a query now
+
+## 4. Prefix and suffix in power query
+* after adding and text in a col which had numeric value , so after that the whole things will be a text type
+
+## 5. Left, right and mid fns
+
+* if you have such there where you want to extract some chars from starting or from mid or from last
+
+* you to **Extract** option of Text column in power query
+
+* if we go transform -> select that col from where we want to extract text -> go Extract option (and extract some number of char from starting , mid or end) so this will **replace your col** to that number of char
+
+* if you go to **Add column** option at the top of the power query --> you will see same things for text column -> go Extrant this will take you col as it is and add another col with that number char
+
+* so you should now when you use **Transform** and when to use **Add column**
+
+## 6. Extract Text With Delimiters
