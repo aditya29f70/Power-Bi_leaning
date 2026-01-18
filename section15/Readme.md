@@ -1,36 +1,65 @@
 ## section 16 ;; Columns from examples and conditional column(if and else conditions) in power bi
 
-* 16.1 Column from examples(CFE) on **Splitting Text**
-* 16.2 Column From Example on **Merging Text**
-* 16.3 Column From Example on **Data Column**
-* 16.4 Column from Example on **Alphanumeric data**
-* 16.5 Conditional Column on **One Column**
-* 16.6 Conditional Column on **two columns**
-* 16.7 Conditional Column **Comparing two column values**
-* 16.8 Conditional column **on Dates**
+- 16.1 Column from examples(CFE) on **Splitting Text**
+- 16.2 Column From Example on **Merging Text**
+- 16.3 Column From Example on **Data Column**
+- 16.4 Column from Example on **Alphanumeric data**
+- 16.5 Conditional Column on **One Column**
+- 16.6 Conditional Column on **two columns**
+- 16.7 Conditional Column **Comparing two column values**
+- 16.8 Conditional column **on Dates**
 
 ## 16.1 Column from examples on **Splitting Text** ;; file we ahve 16.1 Column from example
 
-* i want to split a column without using split fn -> we can do it by using **Column from example** if you know flex fill in excel this topic is similar kind of that 
+- i want to split a column without using split fn -> we can do it by using **Column from example** if you know flex fill in excel this topic is similar kind of that
 
+- for eg in excel ;;
+- if we want first two chractor in any text (like CA-2018-152156) so for that type first two charactor and press inter it will autmatically create a new col and -> go to **Home menu** -> go to **fill** option -> **Flash fill**
 
-* for eg in excel ;;
-* if we want first two chractor in any text (like CA-2018-152156) so for that type first two charactor and press inter it will autmatically create a new col and -> go to **Home menu** -> go to **fill** option -> **Flash fill**
+- lly if you want last number just write it at new column at corresponding row and enter it will generate new col and now go to -> fill -> flash fill option
 
-* lly if you want last number just write it at new column at corresponding row and enter it will generate new col and now go to -> fill -> flash fill option
+- lly you can extract first name from customer full name -> just write first name in new corresponding row enter -> fill -> flash fill
 
-* lly you can extract first name from customer full name -> just write first name in new corresponding row enter -> fill -> flash fill 
+- now let us do this in power query (power bi)
+- so at your Home menu bar in Power query you will see **Column from example** so select that col and click on it
 
-* now let us do this in power query (power bi)
-* so at your Home menu bar in Power query you will see **Column from example** so select that col and click on it
+- there are two option -> 1. from all columns, 2. from selection (what ever col you have selected)
 
-* there are two option -> 1. from all columns, 2. from selection (what ever col you have selected)
+- now one column will be created so if you want first two character so just put two character and click enter
 
-* now one column will be created so if you want first two character so just put two character and click enter
+- so behind the these things are happend bz of M-lang fn so and it used **Delimiter** to seperate these text
 
-* so behind the these things are happend bz of M-lang fn so and it used **Delimiter** to seperate these text
+- you can also convert a col text as new upper case text or lower case text;; first char new col -> so for that you have to train it again and again (for that you have to give suggestion more in mutile row like in first row write one char and sec write second col char)
 
-* you can also convert a col text as new upper case text or lower case text;; first char new col -> so for that you have to train it again and again (for that you have to give suggestion more in mutile row like in first row write one char and sec write second col char)
+## 16.2 Column From Example on **Merging Text** ;; there are many methods to add diff columns to make one
 
+- -> so for that use **Column from eg** -> go to **from all the columns** choose (since we want all the columns together) -> it will make new column and you just have to write how to combine those (means just write one row how you want with data and press enter if it not regonizing so write anothere row lly way so it will get more idea what you want)
 
-7:00
+## 16.3 Column From Example on **Data Column**
+
+- do same things -> and need train (if it don't understand by giving only one row eg) ;; what ever you want just put there (day, month, year) ;;
+
+- 25+ fn working there so if there data col and you have choose it as **column from eg** and giving data-month_name-year ;; it will automatically understand this name things and you can put for all
+
+- and only write **day**, **month**, **quater** it will give you all related thing which you can get
+
+## 16.4 Column from Example on **Alphanumeric data**
+
+- same
+
+## 16.5 Conditional Column on **One Column**
+
+- you can take data from power query directly from **New source**
+- lly go to **Add column** -> there is option -> conditional Column (if by conditional col you can condition if value is >400 write profit or if <200 write loss and if bw then write neutral)
+
+- there is option **add clause** so you can add multiple conditions (like in above case there are three condition possible)
+
+## 16.6 Conditional Column on **two columns**
+
+## 16.7 Conditional Column **Comparing two column values**
+
+- do same things -> and at where you open add conditional column (where you make decision or conditions) just instead of **value** choose another column
+
+## 16.8 Conditional column **on Dates**
+
+- same ;; there you can also give today date (it will automatically update today date)
